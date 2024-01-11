@@ -1,0 +1,32 @@
+Script started on 2024-01-11 23:39:36+05:30 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="94" LINES="29"]
+[?2004h]0;shreegs@DESKTOP-TRKBCPV: ~/Docker-Exercise[01;32mshreegs@DESKTOP-TRKBCPV[00m:[01;34m~/Docker-Exercise[00m$ docker ps
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS     NAMES
+7a78f92d3e63   nginx     "/docker-entrypoint.…"   58 seconds ago   Up 57 seconds   80/tcp    wizardly_brown
+9500b268a146   nginx     "/docker-entrypoint.…"   14 minutes ago   Up 14 minutes   80/tcp    zen_leakey
+65af4beac221   nginx     "/docker-entrypoint.…"   4 hours ago      Up 4 hours      80/tcp    boring_sammet
+[?2004h]0;shreegs@DESKTOP-TRKBCPV: ~/Docker-Exercise[01;32mshreegs@DESKTOP-TRKBCPV[00m:[01;34m~/Docker-Exercise[00m$ docker stop 65af
+[?2004l65af
+[?2004h]0;shreegs@DESKTOP-TRKBCPV: ~/Docker-Exercise[01;32mshreegs@DESKTOP-TRKBCPV[00m:[01;34m~/Docker-Exercise[00m$ docker stop 65af[K[K[K[K9500
+[?2004l9500
+[?2004h]0;shreegs@DESKTOP-TRKBCPV: ~/Docker-Exercise[01;32mshreegs@DESKTOP-TRKBCPV[00m:[01;34m~/Docker-Exercise[00m$ docker ps
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS              PORTS     NAMES
+7a78f92d3e63   nginx     "/docker-entrypoint.…"   About a minute ago   Up About a minute   80/tcp    wizardly_brown
+[?2004h]0;shreegs@DESKTOP-TRKBCPV: ~/Docker-Exercise[01;32mshreegs@DESKTOP-TRKBCPV[00m:[01;34m~/Docker-Exercise[00m$ docker ps -a
+[?2004lCONTAINER ID   IMAGE         COMMAND                  CREATED              STATUS                      PORTS     NAMES
+7a78f92d3e63   nginx         "/docker-entrypoint.…"   About a minute ago   Up About a minute           80/tcp    wizardly_brown
+36751bf77f8d   node          "docker-entrypoint.s…"   2 minutes ago        Exited (0) 2 minutes ago              dreamy_margulis
+422c1b5c25b5   ubuntu        "/bin/bash"              5 minutes ago        Exited (0) 5 minutes ago              wizardly_thompson
+e167a123c80b   hello-world   "/hello"                 6 minutes ago        Exited (0) 6 minutes ago              nostalgic_williamson
+2734a94f731d   hello-world   "/hello"                 11 minutes ago       Exited (0) 11 minutes ago             funny_chatelet
+ded122143fb8   hello         "world"                  11 minutes ago       Created                               gifted_jang
+786e58392071   centos        "/bin/bash"              13 minutes ago       Exited (0) 13 minutes ago             stoic_euclid
+c0b432662629   python        "python3"                15 minutes ago       Exited (0) 15 minutes ago             funny_mendeleev
+0fee368f2f1f   ubuntu        "/bin/bash"              15 minutes ago       Exited (0) 15 minutes ago             gracious_moore
+9500b268a146   nginx         "/docker-entrypoint.…"   15 minutes ago       Exited (0) 20 seconds ago             zen_leakey
+1764e5b144b4   python        "python3"                20 minutes ago       Exited (0) 20 minutes ago             priceless_bell
+3a26d7480178   ubuntu        "/bin/bash"              21 minutes ago       Exited (0) 21 minutes ago             epic_burnell
+8a135ce32dea   ubuntu        "/bin/bash"              22 minutes ago       Exited (0) 22 minutes ago             boring_taussig
+65af4beac221   nginx         "/docker-entrypoint.…"   4 hours ago          Exited (0) 32 seconds ago             boring_sammet
+[?2004h]0;shreegs@DESKTOP-TRKBCPV: ~/Docker-Exercise[01;32mshreegs@DESKTOP-TRKBCPV[00m:[01;34m~/Docker-Exercise[00m$ exit
+[?2004lexit
+Script done on 2024-01-11 23:41:01+05:30 [COMMAND_EXIT_CODE="0"]

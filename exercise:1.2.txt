@@ -1,0 +1,35 @@
+Script started on 2024-01-11 23:48:26+05:30 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="120" LINES="30"]
+[?2004h]0;shreegs@DESKTOP-TRKBCPV: ~/Docker-Exercise[01;32mshreegs@DESKTOP-TRKBCPV[00m:[01;34m~/Docker-Exercise[00m$ docker images prune
+[?2004lREPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+[?2004h]0;shreegs@DESKTOP-TRKBCPV: ~/Docker-Exercise[01;32mshreegs@DESKTOP-TRKBCPV[00m:[01;34m~/Docker-Exercise[00m$ docker images prune[K[K[K[K[K[K[K[K[K[K[K[Kcontainer prune
+[?2004lWARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+36751bf77f8deb664fde5f423e083e0dbf6741149220c9b4bf216e8e6d001cc4
+422c1b5c25b570b9d7bdf97a8305923279cd036143099e5f90e01a7a874f30c4
+e167a123c80b765453fbd292379381f8cb8750d6688e953db94e49a060c48a5e
+2734a94f731d76b62b63abcc1e5e426b069892540f229a85b277e29f38ee89a1
+ded122143fb884b665404cd936c893e9d361115cff48b8b81fc945afc775a4b7
+786e58392071d559e188462c6198ecc2df7c22fbcf1eb77053d066ebba370ed7
+c0b432662629d1323aaf66a72953e25b129535cc9c757a8c81479ce8f45253a9
+0fee368f2f1f5eccef8154d6ee908d3d557c60ffff5b4634567817ddc2f04ae9
+9500b268a146b97012598b0b57cf3f361931e456dc9e6613a79532d578067cfe
+1764e5b144b44c42965532f550cb745e9c0d50724f586fd932c0033713bb6c11
+3a26d7480178e3d3864bdf9a937ba37046593f0c0366779e5362302efa6fd3c6
+8a135ce32dea4e672aee53eba1569b420eb8071de681002d0b197d3628aea8b0
+65af4beac22102f3a11339de0eec375fac5c999e43ae87e52b2bc06a921c6879
+
+Total reclaimed space: 62.92kB
+[?2004h]0;shreegs@DESKTOP-TRKBCPV: ~/Docker-Exercise[01;32mshreegs@DESKTOP-TRKBCPV[00m:[01;34m~/Docker-Exercise[00m$ docker images ls
+[?2004lREPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+[?2004h]0;shreegs@DESKTOP-TRKBCPV: ~/Docker-Exercise[01;32mshreegs@DESKTOP-TRKBCPV[00m:[01;34m~/Docker-Exercise[00m$ docker images ls[K[K[K[K[K[K[K[K[Kcontainer ls
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS     NAMES
+7a78f92d3e63   nginx     "/docker-entrypoint.…"   10 minutes ago   Up 10 minutes   80/tcp    wizardly_brown
+[?2004h]0;shreegs@DESKTOP-TRKBCPV: ~/Docker-Exercise[01;32mshreegs@DESKTOP-TRKBCPV[00m:[01;34m~/Docker-Exercise[00m$ docker container ls[3Pimages[C[C[Ccontainer prune
+[?2004lWARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] n
+Total reclaimed space: 0B
+[?2004h]0;shreegs@DESKTOP-TRKBCPV: ~/Docker-Exercise[01;32mshreegs@DESKTOP-TRKBCPV[00m:[01;34m~/Docker-Exercise[00m$ exit
+[?2004lexit
+
+Script done on 2024-01-11 23:50:16+05:30 [COMMAND_EXIT_CODE="0"]
