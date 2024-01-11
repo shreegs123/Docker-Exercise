@@ -1,0 +1,33 @@
+Script started on 2024-01-12 00:20:52+05:30 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="83" LINES="43"]
+[?2004h]0;shreegs@DESKTOP-TRKBCPV: ~/Docker-Exercise[01;32mshreegs@DESKTOP-TRKBCPV[00m:[01;34m~/Docker-Exercise[00m$ exitcat exercise\:1.2.txt [3@scrip[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kat exercise\:1.1.txt ls[Kcd Docker-Exercise/exit[Kdocker container prune[3Pls[3Pimages[C[C[Ccontainer prune[3Pimages[C[C[C[C[C[Ctouch exercise:1.2.txt clear[Kat exercise\:1.1.txt [1Pvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@cat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@scrip[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ptouch exercise:1.1.txtclear[Kdocker psrun -d nginx[7Pps -a[K[K[K[K[K[K[K[K[K[K[K[Kdocker run -d -it devopsdockeruh/simple-web-service:ubuntu 
+[?2004l62b1031fe68652fbf26fa124e279ab55f108968208ff20553aeea0e1545a8f80
+[?2004h]0;shreegs@DESKTOP-TRKBCPV: ~/Docker-Exercise[01;32mshreegs@DESKTOP-TRKBCPV[00m:[01;34m~/Docker-Exercise[00m$ docker exec -it 62b1 bash
+[?2004l]0;root@62b1031fe686: /usr/src/approot@62b1031fe686:/usr/src/app# tail -f ./text.log
+2024-01-11 18:51:48 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-01-11 18:51:50 +0000 UTC
+2024-01-11 18:51:52 +0000 UTC
+2024-01-11 18:51:54 +0000 UTC
+2024-01-11 18:51:56 +0000 UTC
+2024-01-11 18:51:58 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-01-11 18:52:00 +0000 UTC
+2024-01-11 18:52:02 +0000 UTC
+2024-01-11 18:52:04 +0000 UTC
+2024-01-11 18:52:06 +0000 UTC
+2024-01-11 18:52:08 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-01-11 18:52:10 +0000 UTC
+2024-01-11 18:52:12 +0000 UTC
+2024-01-11 18:52:14 +0000 UTC
+2024-01-11 18:52:16 +0000 UTC
+2024-01-11 18:52:18 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-01-11 18:52:20 +0000 UTC
+^C
+]0;root@62b1031fe686: /usr/src/approot@62b1031fe686:/usr/src/app# exit
+exit
+[?2004h]0;shreegs@DESKTOP-TRKBCPV: ~/Docker-Exercise[01;32mshreegs@DESKTOP-TRKBCPV[00m:[01;34m~/Docker-Exercise[00m$ exit
+[?2004lexit
+
+Script done on 2024-01-12 00:22:30+05:30 [COMMAND_EXIT_CODE="130"]
