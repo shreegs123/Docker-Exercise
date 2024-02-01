@@ -1,0 +1,57 @@
+Script started on 2024-02-01 09:23:59+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="182" LINES="17"]
+[?2004h]0;ubuntu@ip-172-31-0-190: ~[01;32mubuntu@ip-172-31-0-190[00m:[01;34m~[00m$ docker run -it [K[K[Kd [7mdevopsdockeruh/simple-web-service:ubuntu[27mdevopsdockeruh/simple-web-service:ubuntu
+[?2004l2a922dfc4e041621319daeaed6a16d7a50e1a82a247747a4ef5c948ea6f6170d
+[?2004h]0;ubuntu@ip-172-31-0-190: ~[01;32mubuntu@ip-172-31-0-190[00m:[01;34m~[00m$ docker run -d devopsdockeruh/simple-web-service:ubuntu[K[K[K[K[K[Kalpie[Kne
+[?2004l67b06d89e249a1686d039c66f938aec8ec222d1e4c55c647ce9cd185a9ac6263
+[?2004h]0;ubuntu@ip-172-31-0-190: ~[01;32mubuntu@ip-172-31-0-190[00m:[01;34m~[00m$ docker images
+[?2004lREPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
+ubuntu                              latest    e34e831650c1   2 weeks ago   77.9MB
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   2 years ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   2 years ago   15.7MB
+[?2004h]0;ubuntu@ip-172-31-0-190: ~[01;32mubuntu@ip-172-31-0-190[00m:[01;34m~[00m$ docker -it [K[K[K[Kexec -t [K[Kit [K[K[K[K[K[K[K[K[Kcontainer ls
+[?2004lCONTAINER ID   IMAGE                                      COMMAND                 CREATED              STATUS              PORTS     NAMES
+67b06d89e249   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"   59 seconds ago       Up 57 seconds                 confident_torvalds
+2a922dfc4e04   devopsdockeruh/simple-web-service:ubuntu   "/usr/src/app/server"   About a minute ago   Up About a minute             dazzling_allen
+308d359a4720   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"   9 minutes ago        Up 9 minutes                  inspiring_wilbur
+c6cb04e441d3   devopsdockeruh/simple-web-service:ubuntu   "/usr/src/app/server"   9 minutes ago        Up 9 minutes                  reverent_tharp
+[?2004h]0;ubuntu@ip-172-31-0-190: ~[01;32mubuntu@ip-172-31-0-190[00m:[01;34m~[00m$ docker exec -it 67 sh
+[?2004l/usr/src/app # [6n/usr/src/app # [Jtail -f ./usr/src/app # tail -f .[J/text.log
+2024-02-01 09:27:10 +0000 UTC
+2024-02-01 09:27:12 +0000 UTC
+2024-02-01 09:27:14 +0000 UTC
+2024-02-01 09:27:16 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-02-01 09:27:18 +0000 UTC
+2024-02-01 09:27:20 +0000 UTC
+2024-02-01 09:27:22 +0000 UTC
+2024-02-01 09:27:24 +0000 UTC
+2024-02-01 09:27:26 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-02-01 09:27:28 +0000 UTC
+2024-02-01 09:27:30 +0000 UTC
+2024-02-01 09:27:32 +0000 UTC
+^C
+/usr/src/app # [6nexit
+[?2004h]0;ubuntu@ip-172-31-0-190: ~[01;32mubuntu@ip-172-31-0-190[00m:[01;34m~[00m$ docker exec -it 67 sh[K]0;ubuntu@ip-172-31-0-190: ~[01;32mubuntu@ip-172-31-0-190[00m:[01;34m~[00m$ docker exec -it 67 sh[K[K[K[K[K2a bash
+[?2004l]0;root@2a922dfc4e04: /usr/src/approot@2a922dfc4e04:/usr/src/app# tail -f ./text.log
+2024-02-01 09:28:00 +0000 UTC
+2024-02-01 09:28:02 +0000 UTC
+2024-02-01 09:28:04 +0000 UTC
+2024-02-01 09:28:06 +0000 UTC
+2024-02-01 09:28:08 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-02-01 09:28:10 +0000 UTC
+2024-02-01 09:28:12 +0000 UTC
+2024-02-01 09:28:14 +0000 UTC
+2024-02-01 09:28:16 +0000 UTC
+2024-02-01 09:28:18 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-02-01 09:28:20 +0000 UTC
+2024-02-01 09:28:22 +0000 UTC
+^C
+]0;root@2a922dfc4e04: /usr/src/approot@2a922dfc4e04:/usr/src/app# [K]0;root@2a922dfc4e04: /usr/src/approot@2a922dfc4e04:/usr/src/app# [K]0;root@2a922dfc4e04: /usr/src/approot@2a922dfc4e04:/usr/src/app# exit
+exit
+[?2004h]0;ubuntu@ip-172-31-0-190: ~[01;32mubuntu@ip-172-31-0-190[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-02-01 09:28:41+00:00 [COMMAND_EXIT_CODE="130"]
